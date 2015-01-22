@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-configuration PUBLIC
+"-//Hibernate/Hibernate Configuration DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-configuration-3.0.dtd">
+
+<!-- <hibernate-configuration> -->
+<!-- 	<session-factory> -->
+<!-- 		<property name="hibernate.connection.driver_class">org.hsqldb.jdbc.JDBCDriver</property> -->
+<!-- 		<property name="hibernate.connection.url">jdbc:hsqldb:file:src/main/resources/db/dvd_library</property> -->
+<!-- 		<property name="hibernate.connection.username">codedata</property> -->
+<!-- 		<property name="hibernate.connection.password">123456</property> -->
+		
+<!-- 		<property name="hibernate.dialect">org.hibernate.dialect.HSQLDialect</property> -->
+		<!-- hibernate.dialect 宣告了想使用的資料庫 SQL 方言 -->
+<!-- 		<property name="hibernate.hbm2ddl.auto">create</property> -->
+		<!-- hibernate.hbm2ddl.auto 設定為 create，表示每次都重建資料庫，這在開發測試時有用，讓你不用手動進行這項工作。 -->
+<!-- 		<property name="show_sql">true</property> -->
+		<!-- show_sql 表示執行時顯示 Hibernate 自動產生的 SQL 語句 -->
+<!-- 		<property name="format_sql">true</property> -->
+		<!-- format_sql 表示是否將這些產生的 SQL 語句排版一下，以利觀看。 -->
+
+<!-- 		<mapping class="tw.eric.domain.Dvd" /> -->
+<!-- 		<mapping class="tw.eric.domain.Director" /> -->
+<!-- 	</session-factory> -->
+<!-- </hibernate-configuration> -->
