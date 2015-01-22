@@ -10,7 +10,6 @@ import org.springframework.stereotype.Service;
 
 import tw.eric.dao.DvdDao;
 import tw.eric.domain.Dvd;
-import tw.eric.util.HibernateUtil;
 
 @Service
 public class DvdDaoImpl implements DvdDao {
